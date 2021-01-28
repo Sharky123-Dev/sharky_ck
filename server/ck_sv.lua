@@ -12,7 +12,7 @@ RegisterCommand("cancelck",function(a,b,c)local d=c:sub(9)local b=d;local e=tonu
 
 -- Delete Tables with identifier.
 function DeleteTables(identifier)
-    MySQL.Async.execute('DELETE FROM users WHERE identifier=@identifier',
+  MySQL.Async.execute('DELETE FROM users WHERE identifier=@identifier',
   { ['identifier'] = identifier},
   function(affectedRows)
   end)
