@@ -7,7 +7,7 @@ description 'Sharky CK'
 version '1.5.0'
 
 server_scripts { 
-	'@mysql-async/lib/MySQL.lua',
+    '@mysql-async/lib/MySQL.lua',
     'server/ck_sv.lua' 
 }
 
