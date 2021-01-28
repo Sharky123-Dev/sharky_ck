@@ -92,7 +92,7 @@ function DeleteTables(identifier)
 end
 ```
 
--- Then you are good to go!
+- Then you are good to go!
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
